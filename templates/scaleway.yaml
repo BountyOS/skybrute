@@ -1,0 +1,19 @@
+clouds:
+  - name: scw-nl-ams
+    domain: s3.nl-ams.scw.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: scw-fr-par
+    domain: s3.fr-par.scw.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: scw-pl-waw
+    domain: s3.pl-waw.scw.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
