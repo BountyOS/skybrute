@@ -1,0 +1,145 @@
+clouds:
+  - name: oss-cn-hangzhou
+    domain: oss-cn-hangzhou.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-cn-shanghai
+    domain: oss-cn-shanghai.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-cn-qingdao
+    domain: oss-cn-qingdao.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-cn-beijing
+    domain: oss-cn-beijing.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-cn-zhangjiakou
+    domain: oss-cn-zhangjiakou.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-cn-huhehaote
+    domain: oss-cn-huhehaote.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-cn-wulanchabu
+    domain: oss-cn-wulanchabu.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-cn-shenzhen
+    domain: oss-cn-shenzhen.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-cn-heyuan
+    domain: oss-cn-heyuan.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-cn-guangzhou
+    domain: oss-cn-guangzhou.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-cn-chengdu
+    domain: oss-cn-chengdu.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-cn-hongkong
+    domain: oss-cn-hongkong.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-us-west-1
+    domain: oss-us-west-1.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-ap-southeast-1
+    domain: oss-ap-southeast-1.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-ap-southeast-2
+    domain: oss-ap-southeast-2.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-ap-southeast-3
+    domain: oss-ap-southeast-3.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-ap-southeast-5
+    domain: oss-ap-southeast-5.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-ap-northeast-1
+    domain: oss-ap-northeast-1.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-ap-northeast-2
+    domain: oss-ap-northeast-2.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-ap-south-1
+    domain: oss-ap-south-1.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-eu-central-1
+    domain: oss-eu-central-1.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-eu-west-1
+    domain: oss-eu-west-1.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-me-east-1
+    domain: oss-me-east-1.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: oss-af-south-1
+    domain: oss-af-south-1.aliyuncs.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
