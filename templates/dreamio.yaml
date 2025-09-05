@@ -1,0 +1,8 @@
+clouds:
+  - name: dream-us-east-005
+    domain: s3.us-east-005.dream.io
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+      - 403
