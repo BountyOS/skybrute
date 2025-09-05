@@ -1,0 +1,7 @@
+clouds:
+  - name: google-cloud-storage
+    domain: storage.googleapis.com
+    rate_limit_rps: 5
+    timeout: 5
+    excluded_status_codes:
+      - 404
