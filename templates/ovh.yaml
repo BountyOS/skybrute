@@ -1,0 +1,73 @@
+clouds:
+  - name: ovh-gra
+    domain: s3.gra.io.cloud.ovh.net
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ovh-sbg
+    domain: s3.sbg.io.cloud.ovh.net
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ovh-waw
+    domain: s3.waw.io.cloud.ovh.net
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ovh-lon
+    domain: s3.lon.io.cloud.ovh.net
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ovh-lim
+    domain: s3.lim.io.cloud.ovh.net
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ovh-us-east-va
+    domain: s3.us-east-va.io.cloud.ovh.net
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ovh-us-west-or
+    domain: s3.us-west-or.io.cloud.ovh.net
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ovh-ca-east-bhs
+    domain: s3.ca-east-bhs.io.cloud.ovh.net
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ovh-ca-east-tor
+    domain: s3.ca-east-tor.io.cloud.ovh.net
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ovh-ap-southeast-sgp
+    domain: s3.ap-southeast-sgp.io.cloud.ovh.net
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ovh-ap-southeast-syd
+    domain: s3.ap-southeast-syd.io.cloud.ovh.net
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ovh-ap-south-mum
+    domain: s3.ap-south-mum.io.cloud.ovh.net
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
