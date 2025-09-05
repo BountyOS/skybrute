@@ -1,0 +1,55 @@
+clouds:
+  - name: linode-us-east-1
+    domain: us-east-1.linodeobjects.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: linode-us-east-2
+    domain: us-east-2.linodeobjects.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: linode-us-central-1
+    domain: us-central-1.linodeobjects.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: linode-ap-south-1
+    domain: ap-south-1.linodeobjects.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: linode-ap-southeast-1
+    domain: ap-southeast-1.linodeobjects.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: linode-ap-northeast-1
+    domain: ap-northeast-1.linodeobjects.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: linode-eu-central-1
+    domain: eu-central-1.linodeobjects.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: linode-eu-west-1
+    domain: eu-west-1.linodeobjects.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: linode-ca-central-1
+    domain: ca-central-1.linodeobjects.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
