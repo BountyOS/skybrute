@@ -1,0 +1,71 @@
+clouds:
+  - name: wasabi-us-east-1
+    domain: us-east-1.wasabisys.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+      - 303
+  - name: wasabi-us-east-2
+    domain: us-east-2.wasabisys.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+      - 303
+  - name: wasabi-us-west-1
+    domain: us-west-1.wasabisys.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+      - 303
+  - name: wasabi-us-west-2
+    domain: us-west-2.wasabisys.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+      - 303
+  - name: wasabi-ca-central-1
+    domain: ca-central-1.wasabisys.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+      - 303
+  - name: wasabi-eu-central-1
+    domain: eu-central-1.wasabisys.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+      - 303
+  - name: wasabi-eu-west-1
+    domain: eu-west-1.wasabisys.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+      - 303
+  - name: wasabi-ap-northeast-1
+    domain: ap-northeast-1.wasabisys.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+      - 303
+  - name: wasabi-ap-southeast-1
+    domain: ap-southeast-1.wasabisys.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+      - 303
+  - name: wasabi-ap-southeast-2
+    domain: ap-southeast-2.wasabisys.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+      - 303
