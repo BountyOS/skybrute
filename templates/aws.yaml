@@ -1,0 +1,7 @@
+clouds:
+  - name: aws
+    domain: s3.amazonaws.com
+    rate_limit_rps: 2
+    timeout: 5
+    excluded_status_codes:
+      - 404
