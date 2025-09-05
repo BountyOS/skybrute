@@ -1,0 +1,121 @@
+clouds:
+  - name: ibm-cloud-us-south
+    domain: s3.us-south.cloud-object-storage.appdomain.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ibm-cloud-us-east
+    domain: s3.us-east.cloud-object-storage.appdomain.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ibm-cloud-eu-gb
+    domain: s3.eu-gb.cloud-object-storage.appdomain.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ibm-cloud-eu-de
+    domain: s3.eu-de.cloud-object-storage.appdomain.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ibm-cloud-au-syd
+    domain: s3.au-syd.cloud-object-storage.appdomain.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ibm-cloud-jp-tok
+    domain: s3.jp-tok.cloud-object-storage.appdomain.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ibm-cloud-jp-osa
+    domain: s3.jp-osa.cloud-object-storage.appdomain.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ibm-cloud-ca-tor
+    domain: s3.ca-tor.cloud-object-storage.appdomain.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ibm-cloud-br-sao
+    domain: s3.br-sao.cloud-object-storage.appdomain.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ibm-cloud-eu-es
+    domain: s3.eu-es.cloud-object-storage.appdomain.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ibm-cloud-ca-mon
+    domain: s3.ca-mon.cloud-object-storage.appdomain.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ibm-cloud-dal-us
+    domain: s3.dal.us.cloud-object-storage.appdomain.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ibm-cloud-sjc-us
+    domain: s3.sjc.us.cloud-object-storage.appdomain.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ibm-cloud-wdc-us
+    domain: s3.wdc.us.cloud-object-storage.appdomain.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ibm-cloud-ams-eu
+    domain: s3.ams.eu.cloud-object-storage.appdomain.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ibm-cloud-fra-eu
+    domain: s3.fra.eu.cloud-object-storage.appdomain.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ibm-cloud-mil-eu
+    domain: s3.mil.eu.cloud-object-storage.appdomain.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ibm-cloud-tok-ap
+    domain: s3.tok.ap.cloud-object-storage.appdomain.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ibm-cloud-syd-ap
+    domain: s3.syd.ap.cloud-object-storage.appdomain.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: ibm-cloud-osa-ap
+    domain: s3.osa.ap.cloud-object-storage.appdomain.cloud
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
