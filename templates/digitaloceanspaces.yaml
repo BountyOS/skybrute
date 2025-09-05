@@ -1,0 +1,49 @@
+clouds:
+  - name: do-nyc3
+    domain: nyc3.digitaloceanspaces.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: do-sfo2
+    domain: sfo2.digitaloceanspaces.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: do-sfo3
+    domain: sfo3.digitaloceanspaces.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: do-lon1
+    domain: lon1.digitaloceanspaces.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: do-ams3
+    domain: ams3.digitaloceanspaces.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: do-sgp1
+    domain: sgp1.digitaloceanspaces.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: do-frankfurt1
+    domain: frankfurt1.digitaloceanspaces.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: do-blr1
+    domain: blr1.digitaloceanspaces.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
