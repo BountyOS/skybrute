@@ -1,0 +1,25 @@
+clouds:
+  - name: vultr-ams1
+    domain: ams1.vultrobjects.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: vultr-ewr1
+    domain: ewr1.vultrobjects.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: vultr-sjc1
+    domain: sjc1.vultrobjects.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
+  - name: vultr-sgp1
+    domain: sgp1.vultrobjects.com
+    rate_limit_rps: 10
+    timeout: 5
+    excluded_status_codes:
+      - 404
