@@ -22,12 +22,13 @@ def scan_target_and_cloud(wordlist, target, config, output_file, verbose, status
     rate_limit_rps = config.get('rate_limit_rps', 10)
     timeout = config.get('timeout', 5)
     excluded_status_codes = config.get('excluded_status_codes', [404])
+    cloud_path = config.get('path', '')
 
     # Console-only messages
     print_and_log(f"\n{Colors.YELLOW}[*] Starting scan for target: '{target}' on cloud: '{cloud_name}'{Colors.ENDC}")
     print_and_log(f"{Colors.YELLOW}[*] Brute-forcing {cloud_name} with a rate limit of {rate_limit_rps} RPS...{Colors.ENDC}")
 
-    urls_to_check = [f"https://{word}.{cloud_domain}" for word in wordlist]
+    urls_to_check = [f"https://{word}.{cloud_domain}{cloud_path}" for word in wordlist]
 
     # threaded_scanner handles saving only valid buckets
     found_buckets = threaded_scanner(
