@@ -94,6 +94,7 @@ clouds:
     domain: sgp1.vultrobjects.com
     rate_limit_rps: 10
     timeout: 5
+    path: /api
     excluded_status_codes:
       - 404
 ```
@@ -102,6 +103,7 @@ clouds:
 - `domain` is the domain that you should fuzz such as `FUZZ.sgp1.vultrobjects.com`
 - `timeout` is the timeout of submitted requests to the cloud
 - `excluded_status_codes` is the status codes you should ignore to detect the valid buckets
+- `path` you can submit the requests to a specific path if you wanted
 
 ---
 
