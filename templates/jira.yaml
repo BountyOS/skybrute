@@ -1,0 +1,8 @@
+clouds:
+  - name: atlassian
+    domain: atlassian.net
+    rate_limit_rps: 10
+    timeout: 5
+    path: /rest/api/3/project
+    excluded_status_codes:
+      - 404
